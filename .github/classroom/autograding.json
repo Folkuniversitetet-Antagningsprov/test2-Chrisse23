@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "Verify and grade test",
+      "setup": "npm install -D jest jest-environment-jsdom",
+      "run": "npm test",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 10
+    }
+  ]
+}
