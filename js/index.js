@@ -30,5 +30,5 @@ calculateButton.addEventListener('click', () => {
     const total = calculateTip(sum, tip);
     const friendSum = divideTotal(total, numberOfFriends);
 
-    //showDividedSum(friendSum);
+    showDividedSum(friendSum);
 });
